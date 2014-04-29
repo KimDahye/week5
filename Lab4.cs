@@ -14,7 +14,8 @@ namespace week5_lab4
 					Console.WriteLine ("Bye!");
 					break;
 				}
-				if (operation != "+" || operation != "-" || operation != "*" || operation != "/"){
+
+				if ((operation != "+") && (operation != "-") && (operation != "*") && (operation != "/")){
 					Console.WriteLine ("You entered {0}. Only +,-,*,/,q are allowed.", operation);
 					Console.WriteLine ();
 					continue;
